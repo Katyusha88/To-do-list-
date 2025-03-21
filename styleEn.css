@@ -1,0 +1,56 @@
+body{
+    background-image: url(https://cdn.glitch.global/8ea3c537-4579-4fb3-a820-8d384984eaa0/old-paper-notebook-right-page-with-pen.jpg?v=1642345116809);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    min-height: 90vh;
+    background-color: white;
+}
+.list{
+    display: flex;
+    justify-content: center;
+
+}
+h1{
+    /* margin-top: 100px; */
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+    font-size: 5em;                                                 
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+.icon{
+    display: flex;
+    justify-content: end;    
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+#input{
+    width: 300px;
+    border: 2px solid blue;
+}
+#btn{
+    border: 1px solid blue;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stulyBox{
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+}
+.stulyBoxs{
+    text-decoration: line-through;
+    color: black;
+}
+@media all and (max-width: 500px){
+.list{
+    margin-top: 50px;
+}
+}
