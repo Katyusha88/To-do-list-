@@ -1,0 +1,80 @@
+body{
+    background-image: url(https://cdn.glitch.com/1cd90e5b-7cd1-4e0b-b314-c6a5917ba8e4%2Fcalendar.jpg?v=1630423884256);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    min-height: 100vh;
+    background-color: #7c7f87;
+}
+.box, .case{
+    display: flex;
+    justify-content: center;
+}
+.case{
+    margin-top: -60px;
+    background: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 0.02em gold;
+    font-size: 40px;
+}
+.input{
+    padding: 10px;
+    width: 50%;
+}
+.btn{
+    padding: 15px;
+    background: linear-gradient(to left, gold, rgb(39, 39, 39));
+    font-size: 20px;
+}
+.style{
+    background: rgb(250, 238, 167);
+    font-size: 20px;
+    padding: 10px;
+    width: 65%;
+    border: 1px solid black;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-family: 'Rampart One', cursive;
+}
+.heck{
+    background: goldenrod;
+    color: black;
+    font-weight: bold;
+    text-decoration: line-through;
+    transition: all 1s ease;
+}
+.icon{
+    display: flex;
+    justify-content: end;
+}
+
+@media all and (max-width: 800px){
+  body{
+        background-size: 100%;
+        background-color: rgb(95, 90, 90);
+    }
+   h1{
+        font-size: 60px;}
+    .case{
+        margin-top: 160px; 
+    }
+  
+}
+
+@media all and (max-width: 500px){
+    body{
+        background-size: 100%;
+        background-color: rgb(95, 90, 90);
+    }
+    h1{
+        font-size: 30px;}
+    .case{
+        margin-top: 200px; 
+    }}
